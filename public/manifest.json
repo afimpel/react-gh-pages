@@ -1,0 +1,25 @@
+{
+	"short_name": "React Testing Afimpel Code",
+	"name": "Create React App Sample",
+	"icons": [
+		{
+			"src": "favicon.ico",
+			"sizes": "32x32",
+			"type": "image/x-icon"
+		},
+		{
+			"src": "tux192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "tux256.png",
+			"type": "image/png",
+			"sizes": "256x256"
+		}
+	],
+	"start_url": ".",
+	"display": "standalone",
+	"theme_color": "#000000",
+	"background_color": "#ffffff"
+}

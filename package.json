@@ -1,0 +1,50 @@
+{
+	"name": "react-gh-pages",
+	"version": "0.1.0",
+	"homepage": "https://afimpel.github.io/react-gh-pages/",
+	"dependencies": {
+		"react-dom": "latest",
+		"react": "latest",
+		"react-geolocated": "latest",
+		"react-helmet": "latest",
+		"@mui/material": "latest",
+		"@mui/icons-material": "latest",
+		"@emotion/styled": "latest",
+		"@emotion/react": "latest",
+		"notistack": "latest",
+		"axios": "latest",
+		"clsx": "latest",
+		"react-router-dom": "latest",
+		"prop-types": "latest"
+	},
+	"devDependencies": {
+		"react-scripts": "latest",
+		"gh-pages": "latest"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
+}
