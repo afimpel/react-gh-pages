@@ -2,5 +2,5 @@
 React Testing Afimpel Code
 
 
-github-pages 
+* github-pages *
 [LINK](https://afimpel.github.io/react-gh-pages/).
