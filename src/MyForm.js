@@ -3,13 +3,13 @@ import WebIcon from "@mui/icons-material/Web";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import ButtonClick from "./Componets/ButtonClick";
 import MyNotifications from "./Componets/MyNotifications";
-import ToggleBtn from "./Componets/ToggleBtn";
 import ClockApp from "./Componets/ClockApp";
+import PrimarySearchAppBar from "./Componets/PrimarySearchAppBar";
 
 export default function MyForm(props) {
 	return (
 		<Fragment>
-			<ToggleBtn />
+			<PrimarySearchAppBar />
 			<MyNotifications
 				text="Bienvenido... afimpel.com | 🇦🇷"
 				variant="success"
@@ -43,7 +43,7 @@ export default function MyForm(props) {
 			>
 				afimpel.com
 			</ButtonClick>
-			<ClockApp />
+			<ClockApp digital={true} />
 		</Fragment>
 	);
 }

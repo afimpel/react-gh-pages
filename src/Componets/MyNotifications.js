@@ -4,7 +4,6 @@ import CloseIcon from "@mui/icons-material/Close";
 import { IconButton } from "@mui/material";
 import { useSnackbar } from "notistack";
 
-
 export default function MyNotifications(props) {
 	const { text, variant, actions, onStart } = props;
 	let actionsDATA = props.children ? props.children : actions;
@@ -33,7 +32,7 @@ export default function MyNotifications(props) {
 	return (
 		<Fragment>
 			<IconButton
-				color={variant}
+				color="inherit"
 				onClick={() => handleClickWithAction(text, variant, actionsDATA)}
 			>
 				<NotificationsIcon />
