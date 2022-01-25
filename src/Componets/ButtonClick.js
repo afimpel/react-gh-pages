@@ -15,13 +15,13 @@ export default function ButtonClick(props) {
   );
   if (props.icons) {
     return (
-      <IconButton {...rest} button component={renderLink}>
+      <IconButton {...rest} component={renderLink}>
         {children}
       </IconButton>
     );
   } else {
     return (
-      <Button {...rest} button component={renderLink}>
+      <Button {...rest} component={renderLink}>
         {children}
       </Button>
     );

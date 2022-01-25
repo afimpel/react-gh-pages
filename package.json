@@ -1,25 +1,27 @@
 {
 	"name": "react-gh-pages",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"homepage": "https://afimpel.github.io/react-gh-pages/",
 	"dependencies": {
-		"react-dom": "latest",
-		"react": "latest",
-		"react-geolocated": "latest",
-		"react-helmet": "latest",
-		"@mui/material": "latest",
-		"@mui/icons-material": "latest",
-		"@emotion/styled": "latest",
 		"@emotion/react": "latest",
-		"notistack": "latest",
+		"@emotion/styled": "latest",
+		"@mui/icons-material": "latest",
+		"@mui/material": "latest",
 		"axios": "latest",
 		"clsx": "latest",
-		"react-router-dom": "latest",
-		"prop-types": "latest"
+		"notistack": "latest",
+		"prop-types": "latest",
+		"react": "latest",
+		"react-clock": "latest",
+		"react-dom": "latest",
+		"react-geolocated": "latest",
+		"react-helmet": "latest",
+		"react-markdown": "latest",
+		"react-router-dom": "latest"
 	},
 	"devDependencies": {
-		"react-scripts": "latest",
-		"gh-pages": "latest"
+		"gh-pages": "latest",
+		"react-scripts": "latest"
 	},
 	"scripts": {
 		"start": "react-scripts start",
