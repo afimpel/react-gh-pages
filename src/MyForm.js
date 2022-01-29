@@ -6,6 +6,11 @@ import MyNotifications from "./Componets/MyNotifications";
 import ClockApp from "./Componets/ClockApp";
 import PrimarySearchAppBar from "./Componets/PrimarySearchAppBar";
 
+import List from '@mui/material/List';
+import ListItem from '@mui/material/ListItem';
+import ListItemText from '@mui/material/ListItemText';
+import lista from "./list.json";
+
 export default function MyForm(props) {
 	return (
 		<Fragment>
@@ -44,6 +49,17 @@ export default function MyForm(props) {
 				afimpel.com
 			</ButtonClick>
 			<ClockApp digital={true} />
+            <List dense={true}>
+              {lista.map((value) => {
+return(<ListItem>
+                  <ListItemText
+                    primary={value.name}
+					secondary={value.name+" dd"}
+					key={value.name}
+                  />
+                </ListItem>
+			  )})}
+            </List>			
 		</Fragment>
 	);
 }
